@@ -1,7 +1,7 @@
-#Bundle 1
-##Exercise 1
+# Bundle 1
+## Exercise 1
 
---bash
+```bash
    2 git --version
    3 git init 
    
