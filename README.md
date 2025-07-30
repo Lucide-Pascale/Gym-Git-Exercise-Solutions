@@ -11,3 +11,7 @@
    16 git remote add origin https://github.com/Lucide-Pascale/Gym-Git-Exercise-Solutions.git
   17 git push
   18 git push -u origin main
+  19 git log
+  
+  20 git log --oneline
+  21 git log --stat
