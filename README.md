@@ -163,3 +163,55 @@
   70 git branch
   71 git checkout main
 ```
+
+# Bundle 3
+## Exercise 1
+```bash
+  git checkout -b ft/team-page
+  git add team.html
+  git commit -m "Adding team.html"
+  git push -u origin ft/team-page
+  git checkout main
+  git checkout -b ft/contact-page
+  git switch ft/team-page
+  git log
+  git checkout ft/contact-page
+  git cherry-pick 96f75b77e0c3bee70cf09cd9a5d5da3a035c36d7
+  git add .
+  git commit -m "Adding team.html to branch ft/contact-page"
+  git push
+   5 git branch
+   6 git status
+   7 git log
+   8 git branch
+   9 git push
+  10 git status
+  11 git log --one-line
+  12 git log -- one-line
+  13 git log
+  14 git puus
+  15 git push
+  16 git push --set-upstream origin ft/contact-page
+  17 git branch
+  18 git checkout -b ft/faq-page
+  19 git branch
+  20 git status
+  21 git add .
+  22 git commit -m "faq.html to branch ft/faq-page"
+  23 git push
+  24 git push --set-upstream origin ft/faq-page
+  25 git branch
+  26 git switch ft/team-page
+  27 git log
+  28 git branch
+  29 git switch ft/faq-page
+  30 git branch
+  31 git revert 96f75b77e0c3bee70cf09cd9a5d5da3a035c36d7
+  32 git log
+  33 git push
+  34 git status
+  35 git branch
+  36 git switch main
+```
+
+## Exercise 2
