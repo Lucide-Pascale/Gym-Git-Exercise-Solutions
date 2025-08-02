@@ -215,3 +215,26 @@
 ```
 
 ## Exercise 2
+```bash
+ git branch
+  43 git switch ft/faq-page
+  44 git branch
+  45 git checkout -b ft/home-page-redesign
+  46 git switch main
+  47 git branch
+  48 git status
+  49 git add .
+  50 git commit -m "Added some changes in home.html"
+  51 git push
+  52 git branch
+  53 git checkout ft/home-page-redesign
+  54 git rebase main
+  55 git log
+  56 git status
+  57 git add .
+  58 git commit -m "Added changes to home.html"
+  59 git push
+  60 git push --set-upstream origin ft/home-page-redesign
+  61 git branch
+  62 git checkout main
+```
