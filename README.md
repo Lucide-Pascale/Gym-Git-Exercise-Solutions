@@ -114,3 +114,52 @@
   25 git branch
 
 ```
+
+## Exercise 2
+```bash
+  27 git checkout main
+  28 git branch
+  29 git pull
+  30 git checkout -b ft/service-redesign
+  31 git branch
+  32 git status
+  33 git checkout main -- README.md
+  34 git branch
+  35 git status
+  36 git switch main
+  37 history
+  38 git branch
+  39 git status
+  40  git add README.md
+  41 git commit -m "Bundle 2 Exercise 1"
+  42 git push
+  43 git status
+  44 git branch
+  45 git switch ft/service-redesign
+  46 git checkout main -- README.md
+  47 git branch
+  48 git status
+  49 git add services.html
+  50 git commit -m "Changes to the services.html"
+  51 git push
+  52 git push -u origin ft/service-redesign
+  53 git push -u origin ft/service-redesign
+  54 git branch
+  55 git checkout main
+  56 git branch
+  57 git status
+  58 git add .
+  59 git commit -m "Changes to the Services.html"
+  60 git push
+  61 git branch
+  62 git checkout ft/service-redesign
+  63 git branch
+  64 git diff main
+  65 git branch
+  66 git merge main
+  67 git add .
+  68 git commit
+  69 git push
+  70 git branch
+  71 git checkout main
+```
