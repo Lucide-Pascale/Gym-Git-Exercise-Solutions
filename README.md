@@ -238,3 +238,20 @@
   61 git branch
   62 git checkout main
 ```
+# Bundle 4
+## Exercise 1
+```bash
+  67 git checkout main
+  68 git branch
+  69 git remote
+  70 git remote -v
+  71 git remote add git-copy https://github.com/Lucide-Pascale/Gym-Git-Exercise-Solutions-Repo-2.git 
+  72 git remote
+  73 git branch
+  74 git status
+  75 git status
+  76 git add home.html
+  77 git commit -m "feature: Adding A home emoji on home page"
+  78 git push origin
+  79 git push git-copy
+```
