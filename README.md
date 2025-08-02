@@ -87,3 +87,30 @@
 
 # Bundle 2
 ## Exercise 1
+```bash
+  2 git branch
+   3 git switch -c dev
+   4 git switch dev
+   5 git add .
+   6 git commit -m "ReadMe updated from the main"
+   7 git push
+   8 git branch
+   9 git switch dev
+  10 git branch
+  11 git checkout -b ft/bundle-2
+  12 git branch
+  13 git status
+  14 git add services.html
+  15 git status
+  16 git commit -m "New services page in another branch"
+  17 git push
+  18 git push -u origin ft/bundle-2
+  19 git status
+  20 git checkout main --README.md
+  21 git checkout main -- README.md
+  22 git add .
+  23 git commit -m "Updating a ReadMe to be updated with main"
+  24 git push
+  25 git branch
+
+```
