@@ -70,7 +70,7 @@
   52 git stash list
   53 git stash pop "stash@{0}"
   54 git reset
-  55 git reset team.html
+  55 git reset --hard
   56 git switch main
   57 git branch
   58 git statch main
@@ -84,3 +84,6 @@
   66 git commit -m "Editing the ReadMe"
   67 git push
 ```
+
+# Bundle 2
+## Exercise 1
