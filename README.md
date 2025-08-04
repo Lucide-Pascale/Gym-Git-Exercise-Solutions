@@ -255,3 +255,32 @@
   78 git push origin
   79 git push git-copy
 ```
+## Exercise 2
+```bash
+2 git branch
+   3 git checkout -b ft/footer
+   4 git branch
+   5 git add .
+   6 git commit -m "Adding a footer file"
+   7 git status
+   8 git log
+   9 git status
+  10 git add .
+  11 git commit "ft: Added content on footer page"
+  12 git commit "feature: Added content on footer page"
+  13 git commit "feature, Added content on footer page"
+  14 git commit -m "feature: Added content on footer page"
+  15 git push
+  16 git push --set-upstream origin ft/footer
+  17 git switch main
+  18 git branch
+  19 git checkout -b ft/squashing
+  20 git branch
+  21 git merge --squash ft/footer
+  22 git status
+  23 git commit -m "footer changes squashing"
+  24 git push
+  25 git push --set-upstream origin ft/squashing
+  26 git branch
+  27 git log
+```
