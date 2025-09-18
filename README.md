@@ -294,3 +294,17 @@
    5 git commit -m "Modification on index.html"
    6 git push
 ```
+# Bundle 6
+## Exercise 1
+```bash
+  8 git checkout -b ft/menu
+  9 git branch
+  10 git status
+  11 git add .
+  12 git commit -m "Changes to Menu Page"
+  13 git push
+  14 git push -u origin ft/menu
+
+```
+
+## Exercise 2
