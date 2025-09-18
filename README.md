@@ -284,3 +284,13 @@
   26 git branch
   27 git log
 ```
+# Bundle 5
+## Exercise 1
+## Exercise 2
+```bash
+  2 git status
+   3 git commit -m "Modification on index.html"
+   4 git add .
+   5 git commit -m "Modification on index.html"
+   6 git push
+```
