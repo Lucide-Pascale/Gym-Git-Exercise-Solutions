@@ -308,3 +308,18 @@
 ```
 
 ## Exercise 2
+```bash
+  16 git checkout -b bug/fix
+  17 git status
+  18 git add .
+  19 git commit -m "Changed index-4.html to contact.html"
+  20 git push -u origin bug/fix
+```
+
+## Exercise 3
+```bash
+  24 git switch main
+  25 git add .
+  26 git commit -m "Telephone changed in index-4.html"
+  27 git push
+```
